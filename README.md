@@ -1,25 +1,20 @@
-# Ember-cli-subdomain
+# ember-cli-subdomain
 
-This README outlines the details of collaborating on this Ember addon.
+This simple addon adds  `subdomain detection` to an Ember application.
 
-## Installation
+## Options
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+This addon is configured via your applications `config/environment.js` file. Only one property is
+used from your projects configuration:
 
-## Running
+* `subdomainMapping` -- A javascript hash of subdomains you *may want* to map a unified, default value:
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+The default `subdomainMapping` value is:
 
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+```javascript
+//config/environment.js
+subdomainMapping: {
+  '': 'default',
+  'www': 'default'
+}
+```
