@@ -18,3 +18,7 @@ subdomainMapping: {
   'www': 'default'
 }
 ```
+
+## Usage
+
+Use the method `subdomain` of the injected `urlChecker` for your magic...

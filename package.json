@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-subdomain",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -10,7 +10,7 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": "https://github.com/etozzato/ember-cli-subdomain",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -31,11 +31,11 @@
     "express": "^4.8.5",
     "glob": "^4.0.5"
   },
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "A simple addon that adds subdomain detection to an Ember application",
   "keywords": [
     "ember-addon",
     "ember-cli",
-    "ember"
+    "subdomain"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
